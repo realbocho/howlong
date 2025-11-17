@@ -190,7 +190,7 @@ export default function WelcomePopup({ onClose, onUserLogin }: WelcomePopupProps
                       setLoginError('')
                     }}
                     placeholder="등록된 닉네임 입력"
-                    className="flex-1 px-3 py-2 border-2 border-gray-200 rounded-lg focus:border-indigo-500 focus:outline-none transition-colors"
+                    className="flex-1 px-3 py-2 border-2 border-gray-200 rounded-lg focus:border-indigo-500 focus:outline-none transition-colors text-black"
                     onKeyPress={(e) => e.key === 'Enter' && handleLogin()}
                   />
                   <button

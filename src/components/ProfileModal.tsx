@@ -295,7 +295,7 @@ export default function ProfileModal({ user, currentUser, onClose }: ProfileModa
                     value={newComment}
                     onChange={(e) => setNewComment(e.target.value)}
                     placeholder="응원 메시지를 남겨보세요!"
-                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:border-indigo-500 focus:outline-none"
+                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:border-indigo-500 focus:outline-none text-black"
                     onKeyPress={(e) => e.key === 'Enter' && handleAddComment()}
                   />
                   <button
